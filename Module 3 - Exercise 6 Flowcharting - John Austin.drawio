@@ -1,0 +1,124 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="7bj061WmrlnJAhmUyzaw">
+    <mxGraphModel dx="1854" dy="1275" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0Cuofj4JWODXXH5tnREN-2" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="start" vertex="1">
+          <mxGeometry height="60" width="100" x="390" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0Cuofj4JWODXXH5tnREN-3" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="end" vertex="1">
+          <mxGeometry height="60" width="100" x="390" y="1180" as="geometry" />
+        </mxCell>
+        <mxCell id="0Cuofj4JWODXXH5tnREN-11" edge="1" parent="1" source="0Cuofj4JWODXXH5tnREN-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="0Cuofj4JWODXXH5tnREN-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0Cuofj4JWODXXH5tnREN-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Declare secretNumber" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="0Cuofj4JWODXXH5tnREN-26" edge="1" parent="1" source="0Cuofj4JWODXXH5tnREN-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="0Cuofj4JWODXXH5tnREN-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0Cuofj4JWODXXH5tnREN-27" connectable="0" parent="0Cuofj4JWODXXH5tnREN-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.0276" y="4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0Cuofj4JWODXXH5tnREN-37" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="0Cuofj4JWODXXH5tnREN-38">
+          <mxGeometry relative="1" x="-0.8432" as="geometry">
+            <Array as="points">
+              <mxPoint x="800" y="577.4" />
+              <mxPoint x="800" y="1120" />
+              <mxPoint x="605.8" y="1120" />
+              <mxPoint x="605.8" y="1090" />
+            </Array>
+            <mxPoint x="520" y="577.37" as="sourcePoint" />
+            <mxPoint x="605.7894736842109" y="1060.0015789473682" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0Cuofj4JWODXXH5tnREN-42" connectable="0" parent="0Cuofj4JWODXXH5tnREN-37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.5404" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0Cuofj4JWODXXH5tnREN-5" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="didnt guess = secretNumber?" vertex="1">
+          <mxGeometry height="80" width="180" x="350" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="0Cuofj4JWODXXH5tnREN-15" edge="1" parent="1" source="0Cuofj4JWODXXH5tnREN-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="0Cuofj4JWODXXH5tnREN-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0Cuofj4JWODXXH5tnREN-6" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Output &quot;Guess the number, ranging from 1-100!&quot;" vertex="1">
+          <mxGeometry height="60" width="180" x="350" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="0Cuofj4JWODXXH5tnREN-12" edge="1" parent="1" source="0Cuofj4JWODXXH5tnREN-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="0Cuofj4JWODXXH5tnREN-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0Cuofj4JWODXXH5tnREN-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="user guesses the number" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="0Cuofj4JWODXXH5tnREN-13" edge="1" parent="1" source="0Cuofj4JWODXXH5tnREN-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="0Cuofj4JWODXXH5tnREN-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0Cuofj4JWODXXH5tnREN-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="secretNumber = a number picked (ranging from 1-100&quot;" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="0Cuofj4JWODXXH5tnREN-25" edge="1" parent="1" source="0Cuofj4JWODXXH5tnREN-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="0Cuofj4JWODXXH5tnREN-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0Cuofj4JWODXXH5tnREN-41" connectable="0" parent="0Cuofj4JWODXXH5tnREN-25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.2302" y="-5" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0Cuofj4JWODXXH5tnREN-16" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="guess &amp;gt; secretNumber?" vertex="1">
+          <mxGeometry height="80" width="180" x="350" y="685" as="geometry" />
+        </mxCell>
+        <mxCell id="0Cuofj4JWODXXH5tnREN-31" edge="1" parent="1" source="0Cuofj4JWODXXH5tnREN-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="0Cuofj4JWODXXH5tnREN-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0Cuofj4JWODXXH5tnREN-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Output &quot;Too low&quot;" vertex="1">
+          <mxGeometry height="60" width="120" x="530" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="0Cuofj4JWODXXH5tnREN-35" edge="1" parent="1" source="0Cuofj4JWODXXH5tnREN-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="0Cuofj4JWODXXH5tnREN-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0Cuofj4JWODXXH5tnREN-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Output &quot;Too high&quot;" vertex="1">
+          <mxGeometry height="60" width="120" x="230" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="0Cuofj4JWODXXH5tnREN-24" edge="1" parent="1" source="0Cuofj4JWODXXH5tnREN-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.416;entryY=-0.036;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="0Cuofj4JWODXXH5tnREN-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="279.9" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0Cuofj4JWODXXH5tnREN-40" connectable="0" parent="0Cuofj4JWODXXH5tnREN-24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.1948" y="7" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0Cuofj4JWODXXH5tnREN-36" edge="1" parent="1" source="0Cuofj4JWODXXH5tnREN-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="0Cuofj4JWODXXH5tnREN-5">
+          <mxGeometry relative="1" x="0.0288" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="980" />
+              <mxPoint x="180" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0Cuofj4JWODXXH5tnREN-28" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Input guess" vertex="1">
+          <mxGeometry height="60" width="180" x="350" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="0Cuofj4JWODXXH5tnREN-38" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Output &quot;correct!&quot;" vertex="1">
+          <mxGeometry height="60" width="180" x="360" y="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="0Cuofj4JWODXXH5tnREN-39" edge="1" parent="1" source="0Cuofj4JWODXXH5tnREN-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="0Cuofj4JWODXXH5tnREN-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
